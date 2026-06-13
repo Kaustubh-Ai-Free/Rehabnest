@@ -169,7 +169,7 @@ export default function LandingPage({ onBookAppointment, onEnterDashboard }: Lan
 
             <div className="grid grid-cols-3 gap-6 pt-6 border-t border-slate-200 max-w-lg">
               <div>
-                <span className="block text-2xl font-bold text-primary-500 font-display">10k+</span>
+                <span className="block text-2xl font-bold text-primary-500 font-display">1k+</span>
                 <span className="text-xs text-slate-500 font-medium">Rehabbed Patients</span>
               </div>
               <div>
@@ -237,7 +237,7 @@ export default function LandingPage({ onBookAppointment, onEnterDashboard }: Lan
                   Lead Physiotherapist
                 </div>
                 <h3 className="text-lg font-bold text-slate-800 font-display">Dr. Hrushikesh Deshmukh</h3>
-                <p className="text-xs text-slate-500 font-medium font-mono">B.P.Th, M.P.Th (Musculoskeletal Orthopedics)</p>
+                <p className="text-xs text-slate-500 font-medium font-mono">B.P.Th, M.P.Th (Neuro),Urologist </p>
                 <p className="text-slate-600 text-xs leading-relaxed">
                   Specializes in post-surgical rehab (ACL & Meniscus), joint mobilizations, advanced trigger point release, and intensive back spine decompression. Known for dynamic diagnostic tracking.
                 </p>
@@ -263,7 +263,7 @@ export default function LandingPage({ onBookAppointment, onEnterDashboard }: Lan
                   Specializes in cervical spondylosis, stroke recoveries, facial palsy, osteoarthritic knee protocols, and neurological active movement restoration. Expert in managing critical home care.
                 </p>
                 <div className="flex gap-2 pt-2 text-[11px] font-semibold text-slate-500">
-                  <span className="flex items-center gap-1"><Award className="w-3.5 h-3.5 text-primary-500" /> 7+ Yrs Experience</span>
+                  <span className="flex items-center gap-1"><Award className="w-3.5 h-3.5 text-primary-500" /> Yrs Experience</span>
                   <span className="flex items-center gap-1"><Heart className="w-3.5 h-3.5 text-primary-500" /> Neuro & Spine</span>
                 </div>
               </div>
@@ -342,7 +342,7 @@ export default function LandingPage({ onBookAppointment, onEnterDashboard }: Lan
               Visit Our Nashik Clinic
             </h2>
             <p className="text-slate-600 text-sm leading-relaxed">
-              We are strategically located at KBT Circle, Gangapur Road, which is fully accessible with elevator support and parking access for patients with physical mobility restrictions.
+              We are strategically located at KBT Circle, Gangapur Road, which is fully accessible with support and parking access for patients with physical mobility restrictions.
             </p>
 
             <div className="p-4 bg-slate-50 rounded-xl border border-slate-200/60 text-xs space-y-3 text-slate-600">
@@ -354,7 +354,7 @@ export default function LandingPage({ onBookAppointment, onEnterDashboard }: Lan
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary-500 shrink-0" />
-                <span>+91 91580 12345 / +91 94222 56789</span>
+                <span>+91 8669191616 / +91 7776914665</span>
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-primary-500 shrink-0" />
@@ -426,7 +426,7 @@ export default function LandingPage({ onBookAppointment, onEnterDashboard }: Lan
             <div className="space-y-3">
               <div>
                 <span className="block text-xs font-bold text-slate-300">Dr. Hrushikesh Deshmukh</span>
-                <span className="text-[10px] text-slate-500">Lead Orthopedic Rehab</span>
+                <span className="text-[10px] text-slate-500">Lead Neuro Rehab</span>
               </div>
               <div>
                 <span className="block text-xs font-bold text-slate-300">Dr. Leetali Mahajan</span>
