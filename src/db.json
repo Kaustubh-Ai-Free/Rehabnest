@@ -1,0 +1,89 @@
+{
+  "patients": [
+    {
+      "id": "pat_01",
+      "name": "Rohan Mehta",
+      "age": 42,
+      "gender": "Male",
+      "email": "rohan.mehta@gmail.com",
+      "phone": "+91 98230 12345",
+      "medicalHistory": "Tear of ACL (Anterior Cruciate Ligament) in right knee, left lumbar muscle strain.",
+      "currentCondition": "Post-op ACL reconstruction rehabilitation - Week 4. Restricted range of motion, mild joint effusion, muscle atrophy in quadriceps.",
+      "completedSessions": 8,
+      "recommendedSessions": 15,
+      "conditionStatus": "improving",
+      "notes": "Patient is responding well to isometric squats and active-assisted range of motion exercise. Avoid deep squats."
+    },
+    {
+      "id": "pat_02",
+      "name": "Sunita Deshpande",
+      "age": 63,
+      "gender": "Female",
+      "email": "sunita.desh@gmail.com",
+      "phone": "+91 94222 56789",
+      "medicalHistory": "Diabetes Type II, osteoporosis, osteoarthritic knee joints.",
+      "currentCondition": "Severe bilateral osteoarthritis of the knees. Reports grade 7 pain during morning stairs. Stiffness lasts for 45 minutes.",
+      "completedSessions": 12,
+      "recommendedSessions": 20,
+      "conditionStatus": "active-rehab",
+      "notes": "Focusing on closed-chain exercises, gentle hamstring stretching, and ultrasound therapy on the joint capsule."
+    },
+    {
+      "id": "pat_03",
+      "name": "Amit Kulkarni",
+      "age": 29,
+      "gender": "Male",
+      "email": "amit.kulk@yahoo.com",
+      "phone": "+91 91580 98765",
+      "medicalHistory": "Sedentary software developer. History of occasional migraines.",
+      "currentCondition": "Cervicogenic headache and cervical spondylosis. Numbness in right index finger, limited neck rotation.",
+      "completedSessions": 3,
+      "recommendedSessions": 8,
+      "conditionStatus": "stable",
+      "notes": "Applying manual cervical traction, deep neck flexor strengthening. Advised ergonomic adjustments for screen height."
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt_01",
+      "patientName": "Rohan Mehta",
+      "email": "rohan.mehta@gmail.com",
+      "phone": "+91 98230 12345",
+      "doctorId": "dr-hrushikesh",
+      "type": "in-clinic",
+      "date": "2026-06-14",
+      "timeSlot": "11:00 AM",
+      "paymentStatus": "paid",
+      "paymentId": "pay_stripe_112233",
+      "status": "scheduled",
+      "notes": "ACL post-op checkout."
+    },
+    {
+      "id": "apt_02",
+      "patientName": "Sunita Deshpande",
+      "email": "sunita.desh@gmail.com",
+      "phone": "+91 94222 56789",
+      "doctorId": "dr-leetali",
+      "type": "home-visit",
+      "date": "2026-06-14",
+      "timeSlot": "09:30 AM",
+      "paymentStatus": "paid",
+      "paymentId": "pay_razorpay_998877",
+      "status": "scheduled",
+      "notes": "Home visit for knee strengthening exercises."
+    },
+    {
+      "id": "apt_03",
+      "patientName": "Amit Kulkarni",
+      "email": "amit.kulk@yahoo.com",
+      "phone": "+91 91580 98765",
+      "doctorId": "dr-hrushikesh",
+      "type": "in-clinic",
+      "date": "2026-06-15",
+      "timeSlot": "04:00 PM",
+      "paymentStatus": "pending",
+      "status": "scheduled",
+      "notes": "First cervical adjustment session."
+    }
+  ]
+}

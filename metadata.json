@@ -1,0 +1,6 @@
+{
+  "name": "Rehabnest Physiotherapy Clinic",
+  "description": "Patient appointment booking, electronic medical records (EMR) session tracking, and AI-powered diagnostic assistant for Rehabnest Physiotherapy Clinic, Nashik.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
