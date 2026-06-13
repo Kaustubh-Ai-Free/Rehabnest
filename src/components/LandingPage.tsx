@@ -85,7 +85,7 @@ export default function LandingPage({ onBookAppointment, onEnterDashboard }: Lan
             </span>
             <span className="flex items-center gap-1.5">
               <Phone className="w-3.5 h-3.5 text-accent-500" />
-              <span>+91 91580 12345 / +91 94222 98765</span>
+              <span>+91 86691 91616 / +91 77769 14665</span>
             </span>
           </div>
           <div className="flex items-center gap-4">
@@ -354,7 +354,7 @@ export default function LandingPage({ onBookAppointment, onEnterDashboard }: Lan
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary-500 shrink-0" />
-                <span>+91 8669191616 / +91 7776914665</span>
+                <span>+91 86691 91616 / +91 77769 14665</span>
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-primary-500 shrink-0" />
